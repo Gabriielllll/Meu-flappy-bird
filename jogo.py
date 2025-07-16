@@ -33,7 +33,7 @@ imagem_fundo = None
 fundo_x = 0 # Posição X inicial do fundo para rolagem
 try:
     # Carrega a imagem real do fundo da floresta
-    fundo_original = pygame.image.load(os.path.join('assets', 'fundo_floresta.jpg')).convert() # Não precisa de alpha se não tiver transparência
+    fundo_original = pygame.image.load(os.path.join('fundo_floresta.jpg')).convert() # Não precisa de alpha se não tiver transparência
     # Redimensiona o fundo para preencher a tela
     imagem_fundo = pygame.transform.scale(fundo_original, (largura_tela, altura_tela))
 except pygame.error as e:
@@ -71,7 +71,7 @@ Y_mid_gap_center = (Y_min_gap_center + Y_max_gap_center) / 2
 imagem_tucano = None
 try:
     # Carrega a imagem real do tucano
-    imagem_tucano_original = pygame.image.load(os.path.join('assets', 'tucano.jpg')).convert_alpha()
+    imagem_tucano_original = pygame.image.load(os.path.join('tucano.jpg')).convert_alpha()
     imagem_tucano = pygame.transform.scale(imagem_tucano_original, (Largura_passaro, Altura_passaro))
 except pygame.error as e:
     print(f"Erro ao carregar imagem do tucano: {e}")
@@ -81,7 +81,7 @@ except pygame.error as e:
 imagem_arvore_original = None
 try:
     # Carrega a imagem real da árvore
-    imagem_arvore_original = pygame.image.load(os.path.join('assets', 'tronco.jpg')).convert_alpha()
+    imagem_arvore_original = pygame.image.load(os.path.join('tronco.jpg')).convert_alpha()
 except pygame.error as e:
     print(f"Erro ao carregar imagem da árvore: {e}")
     # Se a imagem não carregar, 'imagem_arvore_original' permanecerá None
