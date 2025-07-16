@@ -3,7 +3,7 @@ Um clone simples do clássico jogo Flappy Bird, desenvolvido em Python usando a 
 
 ## Visão Geral 
 Controle um pássaro (tucano) através de uma floresta cheia de árvores (canos) em movimento. O objetivo é voar o mais longe possível sem colidir com as árvores ou cair no chão. A velocidade do jogo aumenta à medida que sua pontuação cresce, tornando o desafio ainda maior!
----
+
 ## Como Jogar 
 Pular: Pressione a barra de espaço para fazer o pássaro bater as asas e subir.
 
