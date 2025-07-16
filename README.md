@@ -1,6 +1,6 @@
 # Flappy Bird em Python com Pygame 
 Um clone simples do clássico jogo Flappy Bird, desenvolvido em Python usando a biblioteca Pygame. Este projeto foi criado com foco no aprendizado de lógica de jogos, manipulação de sprites e gerenciamento de estados.
----
+
 ## Visão Geral 
 Controle um pássaro (tucano) através de uma floresta cheia de árvores (canos) em movimento. O objetivo é voar o mais longe possível sem colidir com as árvores ou cair no chão. A velocidade do jogo aumenta à medida que sua pontuação cresce, tornando o desafio ainda maior!
 ---
@@ -14,7 +14,7 @@ Objetivo: Passe pelos espaços entre as árvores para ganhar pontos.
 Game Over: O jogo termina se o pássaro colidir com uma árvore ou tocar o chão.
 
 Reiniciar: Após o "Game Over", pressione a barra de espaço novamente para começar uma nova partida.
----
+
 ## Funcionalidades
 Pássaro Controlável: Movimento de queda por gravidade e pulo responsivo.
 
