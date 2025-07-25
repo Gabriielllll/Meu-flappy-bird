@@ -77,5 +77,11 @@ python seu_jogo.py
 
 (Substitua seu_jogo.py pelo nome real do seu ficheiro.)
 
+<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/bc2ebd36-f964-47bd-a7a9-d5d79b8ffd85" />
+<img width="801" height="599" alt="image" src="https://github.com/user-attachments/assets/bbdcbfaa-7071-4bce-9efa-7d68564a0823" />
+<img width="789" height="597" alt="image" src="https://github.com/user-attachments/assets/fb9165e5-f00f-460d-bf78-468ddf9a10f9" />
+
+
+
 Créditos
 Desenvolvimento: [Gabriel]
